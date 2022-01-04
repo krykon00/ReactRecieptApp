@@ -1,0 +1,17 @@
+.new-receipt__controls {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: solid;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+
+.new-receipt__control {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  justify-content: space-between;
+}

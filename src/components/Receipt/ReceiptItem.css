@@ -1,0 +1,22 @@
+:root {
+  --fon-main-color: white;
+  --element-background-color: #1b3a4b;
+  --price-background-color: #006466;
+}
+
+.expense-item {
+  height: 1.5rem;
+  color: var(--fon-main-color);
+  margin: 0.1rem;
+  border-bottom: 0.1rem solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+
+.expense-item_price {
+  color: yellow;
+}
